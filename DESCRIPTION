@@ -1,16 +1,22 @@
 Package: mean.calculations
-Title: What the Package Does (One Line, Title Case)
+Title: Calculates differences in means
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Sandra",
+           family = "Sun",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "sunj9195@student.ubc.ca")
+Description: This package contains the function mean_differences, which calculates differences in two means.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+Imports: 
+    purrr,
+    base
+VignetteBuilder: knitr

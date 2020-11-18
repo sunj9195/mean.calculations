@@ -1,0 +1,27 @@
+---
+title: "mean_differences"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{mean_differences}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(mean.calculations)
+```
+
+This is how mean_differences works:
+
+```{r}
+mean_differences(6:8, 3:5)
+mean_differences(c(2, 4, 6), c(6, 8, NA))
+```
+
