@@ -25,3 +25,4 @@ mean_differences(6:8, 3:5)
 mean_differences(c(2, 4, 6), c(6, 8, NA))
 ```
 
+Stop message is used to warn users when the input is not numeric. This function is to calculate means differences between 2 data sets. The function will stop as its meaningless to calculate non-numeric values. If the first entry is not numeric, the message will show first entry is not numeric, and display its class. If its the second one is not, the message will say second entry.
