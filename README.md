@@ -5,19 +5,19 @@
 
 <!-- badges: start -->
 
-~~~~ last_change_badge(2020-11-18)```
-```licensebadge(MIT)```
-<!-- badges: end -->
+last\_change\_badge(2020-11-18) licensebadge(MIT) <!-- badges: end -->
 
-The goal of mean.calculations is to provide the `mean_differences` function for STAT545b.
+The goal of mean.calculations is to provide the `mean_differences`
+function for STAT545b.
 
 ## Installation
 
-You can install the released version of mean.calculations from Github with:
+You can install the released version of mean.calculations from Github
+with:
 
 ``` r
 devtools::install_github("sunj9195/mean.calculations")
-~~~~
+```
 
 ## Example
 
