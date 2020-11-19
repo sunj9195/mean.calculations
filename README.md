@@ -7,15 +7,36 @@
 
 <!-- badges: end -->
 
-nd Examples
+The goal of mean.calculations is to provide the `mean_differences`
+function for STAT545b.
+
+Use `mean_differences` to:
+
+  - Calculate the differences in two means.
+
+**Note:** This package is still in its infancy. There are many other
+critical features to come.
+
+## Design Choices
+
+`mean_differences`: \* Calculate the differences in means for numeric
+vector.
+
+## Basic Usage and Examples
 
 `library(mean.calculations)`
 
 Function to calculate for differences in two arithmetic means.
 
-    mean_differences(c(6, 8, 10), c(4, 6, 8))
+``` r
+mean.calculations::mean_differences(c(6, 8, 10), c(4, 6, 8))
+#> [1] 2
+```
 
-    mean_differences(6:20, 5:15)
+``` r
+mean.calculations::mean_differences(6:20, 5:15)
+#> [1] 3
+```
 
 ## Installation
 
@@ -30,7 +51,7 @@ devtools::install_github("sunj9195/mean.calculations")
 This R package includes the mean\_differences function in Assignment
 1-B.
 
-1.  loaded in console `library(devtools), install_package("purrr")`
+1.  loaded in console `library(devtools), install_packages("purrr")`
 
 2.  The package is initially built in owner’s local folders with the
     function `create_package()`, and `use_git()` to create package and
@@ -53,7 +74,7 @@ This R package includes the mean\_differences function in Assignment
 8.  Description file has been updated manually.
 
 9.  Added roxygen skeleton to document the details of function. Para,
-    return, export, etc. has beenn updated to give user a better
+    return, export, etc. has been updated to give user a better
     understanding.
 
 10. `Install & restart` s being used throughout the development.
@@ -73,7 +94,7 @@ This R package includes the mean\_differences function in Assignment
 <!-- end list -->
 
   - `use_readme_rmd()`
-  - `devtools::install_github("sunj9195/mean_differences")`
+  - `devtools::install_github("sunj9195/mean.calculations")`
   - `build_readme()`
 
 <!-- end list -->
