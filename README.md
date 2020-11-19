@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+last change last\_change\_badge(2020-11-18) license licensebadge(MIT)
 <!-- badges: end -->
 
 The goal of mean.calculations is to provide the `mean_differences`
