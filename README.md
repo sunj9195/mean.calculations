@@ -1,6 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+`{r, include = FALSE} knitr::opts_chunk$set( collapse = TRUE, comment =
+"#>", fig.path = "man/figures/README-", out.width = "100%" )`
+
 # mean.calculations
 
 <!-- badges: start -->
@@ -10,24 +13,32 @@
 The goal of mean.calculations is to provide the `mean_differences`
 function for STAT545b.
 
+Use `mean_differences` to:
+
+  - Calculate the differences in two means.
+
+**Note:** This package is still in its infancy. There are many other
+critical features to come.
+
+## Design Choices
+
+`mean_differences`: \* Calculate the differences in means for numeric
+vector.
+
+## Basic Usage and Examples
+
+`library(mean.calculations)`
+
+Function to calculate for differences in two arithmetic means.
+
+`r mean_differences(c(6, 8, 10), c(4, 6, 8))` `r
+mean_differences(6:20, 5:15)`
+
 ## Installation
 
-You can install the released version of mean.calculations from Github
-with:
+`mean_differences` is not on CRAN yet, so the best way to install it is:
 
-``` r
-devtools::install_github("sunj9195/mean.calculations")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(mean.calculations)
-mean_differences(6:8, 3:5)
-#> [1] 3
-```
+`r devtools::install_github("sunj9195/mean.calculations")`
 
 ## Development Explaination
 
