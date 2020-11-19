@@ -37,22 +37,22 @@ This R package includes the mean\_differences function in Assignment
 1.  loaded in console `library(devtools), install_package("purrr")`
 
 2.  The package is initially built in owner’s local folders with the
-    function *create\_package()*, and *use\_git()* to create package and
+    function `create_package()`, and `use_git()` to create package and
     git repo.
 
 3.  mean\_differences function has been wrote and documented with
-    *use\_r(“mean\_difference”)*.
+    `use_r("mean_difference")`.
 
-4.  *document()* is being used throughout the development to document
+4.  `document()` is being used throughout the development to document
     the changes.
 
-5.  *load\_all()* is being used throughout the development to load the
+5.  `load_all()` is being used throughout the development to load the
     changes.
 
-6.  *check()* is being used throughout the development to see if there
+6.  `check()` is being used throughout the development to see if there
     is any errors.
 
-7.  mit license added with *use\_mit\_license(“Sandra Sun”)*.
+7.  mit license added with `use_mit_license(“Sandra Sun”)`.
 
 8.  Description file has been updated manually.
 
@@ -60,34 +60,34 @@ This R package includes the mean\_differences function in Assignment
     return, export, etc. has beenn updated to give user a better
     understanding.
 
-10. *Install & restart* s being used throughout the development.
+10. `Install & restart` s being used throughout the development.
 
 11. `test`
 
 <!-- end list -->
 
-  - *use\_testthat()* to create local test folder
-  - *use\_test(“mean\_difference”)* to create test .R file
+  - `use_testthat()` to create local test folder
+  - `use_test("mean_difference")` to create test .R file
   - wrote test functions with expect\_x functions
 
 <!-- end list -->
 
-12. *REAEME* to create READ file
+12. `REAEME` to create READ file
 
 <!-- end list -->
 
-  - *use\_readme\_rmd()*
-  - *devtools::install\_github(“sunj9195/mean\_differences”)*
-  - *build\_readme()*
+  - `use_readme_rmd()`
+  - `devtools::install_github("sunj9195/mean_differences")`
+  - `build_readme()`
 
 <!-- end list -->
 
-13. *vignette* to create detailed explanation file for the function
+13. `vignette` to create detailed explanation file for the function
 
 <!-- end list -->
 
-  - *use\_vignette()*
-  - *build\_vignettes()*
+  - `use_vignette()`
+  - `build_vignettes()`
 
 <!-- end list -->
 
@@ -100,4 +100,4 @@ This R package includes the mean\_differences function in Assignment
 
 <!-- end list -->
 
-15. Install packages with *install\_github()*
+15. Install packages with `install_github()`
