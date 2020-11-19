@@ -35,23 +35,33 @@ This R package includes the mean\_differences function in Assignment
 1-B.
 
 1.  loaded in console *library(devtools)* *install\_package(“purrr”)*
+
 2.  The package is initially built in owner’s local folders with the
     function *create\_package()*, and *use\_git()* to create package and
     git repo.
+
 3.  mean\_differences function has been wrote and documented with
     *use\_r(“mean\_difference”)*.
+
 4.  *document()* is being used throughout the development to document
     the changes.
+
 5.  *load\_all()* is being used throughout the development to load the
     changes.
+
 6.  *check()* is being used throughout the development to see if there
     is any errors.
+
 7.  mit license added with *use\_mit\_license(“Sandra Sun”)*.
+
 8.  Description file has been updated manually.
+
 9.  Added roxygen skeleton to document the details of function. Para,
     return, export, etc. has beenn updated to give user a better
     understanding.
+
 10. *Install & restart* s being used throughout the development.
+
 11. *test*
 
 <!-- end list -->
