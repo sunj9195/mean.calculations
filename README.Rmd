@@ -37,7 +37,7 @@ library(mean.calculations)
 mean_differences(6:8, 3:5)
 ```
 
-##Development Explaination
+## Development Explaination
 
 This R package includes the mean_differences function in Assignment 1-B. 
 

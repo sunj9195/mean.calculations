@@ -29,7 +29,7 @@ mean_differences(6:8, 3:5)
 #> [1] 3
 ```
 
-\#\#Development Explaination
+## Development Explaination
 
 This R package includes the mean\_differences function in Assignment
 1-B.
