@@ -63,7 +63,7 @@ This R package includes the mean_differences function in Assignment 1-B.
 
 10. *Install & restart* s being used throughout the development.
 
-11. *test*
+11. ```test```
   * *use_testthat()* to create local test folder
   * *use_test("mean_difference")* to create test .R file
   * wrote test functions with expect_x functions

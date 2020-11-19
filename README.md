@@ -34,7 +34,7 @@ mean_differences(6:8, 3:5)
 This R package includes the mean\_differences function in Assignment
 1-B.
 
-1.  loaded in console *library(devtools)* *install\_package(“purrr”)*
+1.  loaded in console `library(devtools), install_package("purrr")`
 
 2.  The package is initially built in owner’s local folders with the
     function *create\_package()*, and *use\_git()* to create package and
@@ -62,7 +62,7 @@ This R package includes the mean\_differences function in Assignment
 
 10. *Install & restart* s being used throughout the development.
 
-11. *test*
+11. `test`
 
 <!-- end list -->
 
