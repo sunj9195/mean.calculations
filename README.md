@@ -7,35 +7,23 @@
 
 <!-- badges: end -->
 
-The goal of mean.calculations is to provide the `mean_differences`
-function for STAT545b.
-
-Use `mean_differences` to:
-
-  - Calculate the differences in two means.
-
-**Note:** This package is still in its infancy. There are many other
-critical features to come.
-
-## Design Choices
-
-`mean_differences`: \* Calculate the differences in means for numeric
-vector.
-
-## Basic Usage and Examples
+nd Examples
 
 `library(mean.calculations)`
 
 Function to calculate for differences in two arithmetic means.
 
-`r mean_differences(c(6, 8, 10), c(4, 6, 8))` `r
-mean_differences(6:20, 5:15)`
+    mean_differences(c(6, 8, 10), c(4, 6, 8))
+
+    mean_differences(6:20, 5:15)
 
 ## Installation
 
 `mean_differences` is not on CRAN yet, so the best way to install it is:
 
-`r devtools::install_github("sunj9195/mean.calculations")`
+``` r
+devtools::install_github("sunj9195/mean.calculations")
+```
 
 ## Development Explaination
 
