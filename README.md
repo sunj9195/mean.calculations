@@ -43,8 +43,8 @@ This R package includes the mean\_differences function in Assignment
 3.  mean\_differences function has been wrote and documented with
     `use_r("mean_difference")`.
 
-4.  `document()` is being used throughout the development to document
-    the changes.
+4.  `devtools::document()` is being used throughout the development to
+    document the changes.
 
 5.  `load_all()` is being used throughout the development to load the
     changes.
@@ -101,3 +101,10 @@ This R package includes the mean\_differences function in Assignment
 <!-- end list -->
 
 15. Install packages with `install_github()`
+
+## Code of Conduct
+
+Please note that the mean.calculations project is released with a
+[Contributor Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
