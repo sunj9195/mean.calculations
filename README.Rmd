@@ -37,18 +37,46 @@ library(mean.calculations)
 mean_differences(6:8, 3:5)
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+##Development Explaination
 
-```{r cars}
-summary(cars)
-```
+This R package includes the mean_differences function in Assignment 1-B. 
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+1. loaded in console
+*library(devtools)* 
+*install_package("purrr")*
+2. The package is initially built in owner's local folders with the function *create_package()*, and *use_git()* to create package and git repo. 
+3. mean_differences function has been wrote and documented with *use_r("mean_difference")*. 
+4. *document()* is being used throughout the development to document the changes. 
+5. *load_all()* is being used throughout the development to load the changes. 
+6. *check()* is being used throughout the development to see if there is any errors. 
+7. mit license added with *use_mit_license(“Sandra Sun”)*. 
+8. Description file has been updated manually. 
+9. Added roxygen skeleton to document the details of function. Para, return, export, etc. has beenn updated to give user a better understanding. 
+10. *Install & restart* s being used throughout the development.
+11. *test*
+  * *use_testthat()* to create local test folder
+  * *use_test("mean_difference")* to create test .R file
+  * wrote test functions with expect_x functions
+12. *REAEME* to create READ file
+  * *use_readme_rmd()*
+  * *devtools::install_github("sunj9195/mean_differences")*
+  * *build_readme()*
+13. *vignette* to create detailed explanation file for the function
+  * *use_vignette()*
+  * *build_vignettes()*
+14. Link to github
+  * created new repository in github
+  * link local to github
+15. Install packages with *install_github()*
 
-You can also embed plots, for example:
 
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
+
+
+
+
+
+
+
+
+
